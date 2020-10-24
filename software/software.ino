@@ -3,8 +3,8 @@
 
 SoftwareSerial ESP8266(3, 4);  //設定序列埠物件 (TX, RX)
 
-#define WIFI_SSID "CCClass"  //填入WiFi帳號
-#define WIFI_PASSWORD "CCClass123"  //填入WiFi密碼
+#define WIFI_SSID "SSID"  //填入WiFi帳號
+#define WIFI_PASSWORD "PASSWORD"  //填入WiFi密碼
 
 int WiFi_Status = WL_IDLE_STATUS; //ＷiFi狀態 WL:連線 IDEL:閒置
 WiFiEspClient espClient;  //設定WiFiEspClient物件
